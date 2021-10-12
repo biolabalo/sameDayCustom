@@ -1,38 +1,217 @@
-.App {
+body, html, main{
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.App{
+  height: 100%;
+  background-color: #E5E5E5;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.m-5{
+  margin-top: 50px;
+}
+
+.pointer{
+  cursor: pointer
+}
+
+.sidebar{
+  min-width: 100px;
+  background: #007BFF;
+  height: 100%;
+  padding: 10px;
+  padding-top: 90px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.middle{
+  background: white;
+  min-width: 400px;
+  text-align: center;
+  padding-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.middle-icons{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-evenly;
+
+}
+
+.right{
+  width: 100%;
+  background: #F0F4F8;
+  justify-content: space-between;
+}
+
+.do-undo{
+width: 64px;
+height: 128px;
+border-radius: 8px;
+background-color: white;
+margin: 15px
+}
+
+.shirt-img{
+  /* width: auto; */
+  /* height: 100%; */
+  /* display: block; */
+}
+
+.front-back{
+    width: 120px;
+    height: 128px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.front-back img{
+  width: 100%;
+}
+
+
+.div-bg-img{
+   width: 600px;
+  background: url("./images/background.png") no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  position: relative;
+}
+
+.bordered-div{
+  border: 1px dashed black;
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: -250px 0 0 -150px;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+
+.greyish{
+  background: #FBFCFE;
+  color: #486581;
+  height: 30px;
+  padding: 5px
+}
+
+.addTextInput{
+  background: #FFFFFF;
+border: 1px solid #829AB1;
+box-sizing: border-box;
+border-radius: 4px;
+margin: 20px;
+height: 80px;
+width: 350px
+}
+
+
+.font-not-expanded{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.font-not-expanded2{
+  margin-top: 30px;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  cursor: pointer
+}
+
+.text-center{
+  text-align: center;
+}
+
+.festive-div{
+  font-family: 'Festive', cursive;
+}
+
+.source-sans-pro{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Nanum-Gothic{
+  font-family: 'Nanum Gothic', sans-serif
+}
+
+.uploaded-img{
+  margin: auto;
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
   color: white;
+  text-align: center;
+  height: 100px;
+  justify-content: space-between;
+  padding-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.footer svg{
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav{
+  background-color: white;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.yc{
+background: #F0F4F8;
+border-radius: 32px;
+width: 157px;
+height: 36px;
+margin: 20px;
+padding:5px
 }
