@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[View link](https://dazzling-poincare-e5e576.netlify.app/) \
+[View link](https://dazzling-poincare-e5e576.netlify.app/) 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
